@@ -17,7 +17,7 @@ public interface IKafkaProducer {
 	 * @throws KafkaException the kafka exception
 	 * @throws UnsupportedEncodingException the unsupported encoding exception
 	 */
-	void sendMessage(@SuppressWarnings("rawtypes") KafkaWrapper data, Class<?> clazz, String topic) throws KafkaException;	
+	void sendMessage(KafkaWrapper<?> data, Class<?> clazz, String topic) throws KafkaException;	
 	
 	void sendMessage(String data, String topic) throws KafkaException;	
 }

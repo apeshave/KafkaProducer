@@ -79,7 +79,7 @@ public class KafkaProducer implements IKafkaProducer {
 	 * .KafkaWrapper, java.lang.String)
 	 */
 	 
-	public void sendMessage(@SuppressWarnings("rawtypes") KafkaWrapper data,
+	public void sendMessage(KafkaWrapper<?> data,
 			Class<?> clazz, String topic) throws KafkaException {
 
 		try {
