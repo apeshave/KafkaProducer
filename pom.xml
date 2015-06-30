@@ -5,6 +5,34 @@
 	<artifactId>KafkaProducer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<url>https://github.com/apeshave/KafkaProducer</url>
+	<packaging>jar</packaging>
+	<name>Kafka Producer</name>
+	<description>This API helps user to send generic messages to kafka queue</description>
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+			<comments>A business-friendly OSS license</comments>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:svn:https://github.com/apeshave/KafkaProducer</connection>
+		<developerConnection>scm:svn:https://github.com/apeshave/KafkaProducer</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/apeshave/KafkaProducer</url>
+	</scm>
+
+	<developers>
+		<developer>
+			<name>Aditya Peshave</name>
+			<email>apeshave@gmail.com</email>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>America/New York</timezone>
+		</developer>
+	</developers>
 	<dependencies>
 		<!-- Kafka Dependancies -->
 		<dependency>
